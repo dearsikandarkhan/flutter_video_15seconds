@@ -1,0 +1,15 @@
+# Keep the published archive lean — exclude IDE/OS cruft and the example's
+# generated native build directories.
+.DS_Store
+**/.DS_Store
+.idea/
+*.iml
+.github/
+assets/screenshots/
+
+example/android/.gradle/
+example/android/app/build/
+example/build/
+example/ios/Pods/
+example/ios/.symlinks/
+example/.dart_tool/
