@@ -10,7 +10,7 @@ normally means wiring together `camera`, `image_picker`, `video_trimmer`,
 [![pub version](https://img.shields.io/pub/v/short_video_kit.svg)](https://pub.dev/packages/short_video_kit)
 [![pub points](https://img.shields.io/pub/points/short_video_kit)](https://pub.dev/packages/short_video_kit/score)
 [![likes](https://img.shields.io/pub/likes/short_video_kit)](https://pub.dev/packages/short_video_kit/score)
-[![CI](https://github.com/profsikandarkhan/short_video_kit/actions/workflows/ci.yml/badge.svg)](https://github.com/profsikandarkhan/short_video_kit/actions/workflows/ci.yml)
+[![CI](https://github.com/dearsikandarkhan/flutter_video_15seconds/actions/workflows/ci.yml/badge.svg)](https://github.com/dearsikandarkhan/flutter_video_15seconds/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 | Record | Pick & Trim | Preview |

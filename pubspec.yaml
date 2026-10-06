@@ -4,9 +4,9 @@ description: >-
   duration-limited clip or pick & trim one from the gallery, then preview it —
   in a few lines, with permissions and lifecycle handled for you.
 version: 0.1.0
-repository: https://github.com/profsikandarkhan/short_video_kit
-issue_tracker: https://github.com/profsikandarkhan/short_video_kit/issues
-homepage: https://github.com/profsikandarkhan/short_video_kit
+repository: https://github.com/dearsikandarkhan/flutter_video_15seconds
+issue_tracker: https://github.com/dearsikandarkhan/flutter_video_15seconds/issues
+homepage: https://github.com/dearsikandarkhan/flutter_video_15seconds
 
 topics:
   - video

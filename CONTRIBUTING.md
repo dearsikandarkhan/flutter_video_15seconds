@@ -5,7 +5,7 @@ Thanks for helping improve **short_video_kit**!
 ## Getting started
 
 ```bash
-git clone https://github.com/profsikandarkhan/short_video_kit.git
+git clone https://github.com/dearsikandarkhan/flutter_video_15seconds.git
 cd short_video_kit
 flutter pub get
 cd example && flutter pub get
