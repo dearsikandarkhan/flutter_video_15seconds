@@ -1,9 +1,8 @@
 name: short_video_kit
 description: >-
-  Drop-in TikTok/Reels-style short video capture for Flutter. Record a
-  duration-limited clip or pick & trim one from the gallery, then preview it —
-  in a few lines, with permissions and lifecycle handled for you.
-version: 0.1.0
+  Drop-in short video capture for Flutter: record a duration-limited clip or
+  pick & trim one from the gallery, then preview it — permissions handled.
+version: 0.1.1
 repository: https://github.com/dearsikandarkhan/flutter_video_15seconds
 issue_tracker: https://github.com/dearsikandarkhan/flutter_video_15seconds/issues
 homepage: https://github.com/dearsikandarkhan/flutter_video_15seconds
@@ -22,12 +21,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  camera: ^0.11.0+2
+  camera: ">=0.11.0 <0.13.0"
   image_picker: ^1.1.2
   video_player: ^2.9.2
-  video_trimmer: ^3.0.1
+  video_trimmer: ">=3.0.1 <6.0.0"
   path_provider: ^2.0.15
-  permission_handler: ^11.3.1
+  permission_handler: ">=11.3.1 <14.0.0"
 
 dev_dependencies:
   flutter_test:
