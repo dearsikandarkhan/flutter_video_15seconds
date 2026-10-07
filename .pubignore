@@ -1,15 +1,29 @@
-# Keep the published archive lean — exclude IDE/OS cruft and the example's
-# generated native build directories.
+# NOTE: in directories where it exists, .pubignore REPLACES .gitignore for
+# `pub publish`. So it must also list the build/tooling dirs .gitignore covers,
+# or they get published (that's how a 33 MB archive happened once).
+
+# Dart/Flutter build + tooling output (the big ones)
+build/
+.dart_tool/
+.packages
+pubspec.lock
+
+# IDE / OS cruft
+.idea/
+.vscode/
+*.iml
 .DS_Store
 **/.DS_Store
-.idea/
-*.iml
+
+# Repo-only files that don't belong in the published package
 .github/
+LAUNCH.md
 assets/screenshots/
 
+# Example app's generated native build output
+example/build/
+example/.dart_tool/
 example/android/.gradle/
 example/android/app/build/
-example/build/
 example/ios/Pods/
 example/ios/.symlinks/
-example/.dart_tool/
