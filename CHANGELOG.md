@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.1
+
+- Widen dependency constraints to support the latest stable `camera` (0.12.x),
+  `video_trimmer` (5.x) and `permission_handler` (13.x).
+- Shorten the package description to meet pub.dev conventions.
+- Correct the repository / homepage / issue-tracker URLs.
+
 ## 0.1.0
 
 Initial release.
