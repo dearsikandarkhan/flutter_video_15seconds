@@ -2,7 +2,7 @@ name: short_video_kit
 description: >-
   Drop-in short video capture for Flutter: record a duration-limited clip or
   pick & trim one from the gallery, then preview it — permissions handled.
-version: 0.1.1
+version: 0.1.2
 repository: https://github.com/dearsikandarkhan/flutter_video_15seconds
 issue_tracker: https://github.com/dearsikandarkhan/flutter_video_15seconds/issues
 homepage: https://github.com/dearsikandarkhan/flutter_video_15seconds
